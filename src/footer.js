@@ -5,10 +5,10 @@ import {
   FaCircle,
   FaPlayCircle,
   FaUser,
-} from "react-icons/fa"; // Example icons for status bar
+} from "react-icons/fa";
 import { AiOutlineWarning } from "react-icons/ai";
 import { IoMdGitBranch } from "react-icons/io";
-import "./footer.css"; // Updated CSS with IDE-style design
+import "./footer.css";
 
 const Footer = () => {
   return (

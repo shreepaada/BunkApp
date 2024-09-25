@@ -2,9 +2,9 @@ import React from "react";
 import Navbar from "./navbar";
 import Bunk from "./bunk";
 import Footer from "./footer";
-import "./bunk.css"; // Shared styles for the Bunk component
-import "./navbar.css"; // Shared styles for the Navbar
-import "./footer.css"; // Shared styles for the Footer
+import "./bunk.css";
+import "./navbar.css";
+import "./footer.css";
 
 const App = () => {
   return (

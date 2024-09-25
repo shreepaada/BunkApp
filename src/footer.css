@@ -1,6 +1,6 @@
-/* Main footer styled to mimic an IDE status bar */
+
 .footer {
-  background-color: #1e1e1e; /* Dark background similar to VS Code */
+  background-color: #1e1e1e;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -11,39 +11,37 @@
   position: fixed;
   bottom: 0;
   width: 100%;
-  height: 35px; /* Set a compact height similar to a status bar */
-  box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.2); /* Adds a subtle depth effect */
+  height: 35px;
+  box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.2);
   z-index: 10;
-  font-size: 0.8rem; /* Smaller font size for a compact appearance */
+  font-size: 0.8rem;
 }
 
-/* Sections to distribute items left, center, and right */
+
 .footer-left,
 .footer-center,
 .footer-right {
   display: flex;
   align-items: center;
-  gap: 8px; /* Space between icons and text */
-}
+  gap: 8px;}
 
-/* Individual items in the footer with consistent styling */
+
 .footer-item {
   display: flex;
   align-items: center;
-  gap: 4px; /* Small gap between icon and text */
+  gap: 4px;
 }
 
-/* Dividers between items for a clean separation */
+
 .footer-divider {
   color: #555;
 }
 
-/* Styling for icons to match the IDE look */
+
 .footer-icon {
-  font-size: 0.8rem; /* Match the icon size with text for consistency */
-  color: #c5c5c5; /* Consistent color scheme */
-}
+  font-size: 0.8rem;
+  color: #c5c5c5;}
 
 .footer-icon.connected {
-  color: #4caf50; /* Green color to indicate a connected status */
+  color: #4caf50;
 }

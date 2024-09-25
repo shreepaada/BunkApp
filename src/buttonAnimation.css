@@ -1,4 +1,4 @@
-/* buttonAnimation.css */
+
 .animated-button {
     margin-top: 20px;
     padding: 12px 24px;
@@ -23,7 +23,7 @@
     transform: translateY(1px);
   }
   
-  /* Bite animation */
+
   .animated-button.bite-animation {
     animation: biteEffect 1.5s forwards;
   }

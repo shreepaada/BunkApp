@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import { gsap } from "gsap";
-import "./bunk.css"; // Main CSS file
+import "./bunk.css";
 
 const Bunk = () => {
   const [showCalculator, setShowCalculator] = useState(false);
@@ -60,8 +60,8 @@ const Bunk = () => {
     catRefs.forEach((catRef) => {
       if (catRef.current) {
         gsap.to(catRef.current, {
-          x: "random(-100, 100)", // Random movement in x direction
-          y: "random(-100, 100)", // Random movement in y direction
+          x: "random(-100, 100)",
+          y: "random(-100, 100)",
           duration: 4,
           repeat: -1,
           yoyo: true,
@@ -135,7 +135,6 @@ const Bunk = () => {
 
   return (
     <div className="bunk-container">
-      {/* Multiple Pixelated Cats with different colors */}
       <svg
         ref={catRefs[0]}
         className="cat cat1"

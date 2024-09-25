@@ -8,7 +8,7 @@
   padding: 10px 20px;
   position: relative;
   overflow: hidden;
-  background-color: #000; /* Background black to match the IDE theme */
+  background-color: #000;
 }
 
 .landing-screen {
@@ -123,16 +123,16 @@
   }
 }
 
-/* Updated Form Styling */
+
 .form {
-  background-color: #2b2b2b; /* Darker background for a sleek look */
+  background-color: #2b2b2b;
   padding: 30px;
   border-radius: 12px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
   max-width: 500px;
   width: 100%;
   margin-top: 30px;
-  border: 1px solid #444; /* Subtle border for a professional touch */
+  border: 1px solid #444;
   z-index: 1;
   font-family: 'Courier New', monospace;
 }
@@ -146,7 +146,7 @@
 .input-group label {
   font-size: 0.9rem;
   margin-bottom: 8px;
-  color: #9cdcfe; /* Light blue text for labels */
+  color: #9cdcfe;
 }
 
 .input {
@@ -164,13 +164,13 @@
 
 .input:focus {
   background-color: #444;
-  box-shadow: 0 0 5px #3c9eff; /* Subtle blue glow on focus */
+  box-shadow: 0 0 5px #3c9eff;
 }
 
 .button {
   width: 100%;
   padding: 14px;
-  background-color: #3c9eff; /* Blue button for contrast */
+  background-color: #3c9eff;
   color: #fff;
   border: none;
   border-radius: 6px;
@@ -180,13 +180,13 @@
 }
 
 .button:hover {
-  background-color: #3581d8; /* Darker blue on hover */
-  transform: translateY(-2px); /* Lift effect */
+  background-color: #3581d8;
+  transform: translateY(-2px);
 }
 
 .button:active {
   background-color: #2a6fbf;
-  transform: translateY(0); /* Reset lift effect */
+  transform: translateY(0);
 }
 
 .result {
