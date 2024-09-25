@@ -1,0 +1,96 @@
+/* Main container wrapping the navbar and status bar */
+.navbar-container {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Courier New', monospace;
+  border-bottom: 1px solid #3c3c3c;
+  background-color: #1e1e1e; /* Dark editor background */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Navbar styled to look like the header of a code editor */
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  border-bottom: 1px solid #3c3c3c;
+}
+
+/* IDE-style buttons resembling close, minimize, maximize */
+.ide-buttons {
+  display: flex;
+  gap: 5px;
+  margin-right: 15px;
+}
+
+.ide-button {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.ide-button.red {
+  background-color: #f96256;
+}
+
+.ide-button.yellow {
+  background-color: #fdbc40;
+}
+
+.ide-button.green {
+  background-color: #34c749;
+}
+
+/* Tabs simulating open files in a code editor */
+.tabs {
+  display: flex;
+  gap: 5px;
+  flex-grow: 1;
+}
+
+.tab {
+  background-color: #2d2d2d;
+  color: #9cdcfe;
+  padding: 5px 10px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  font-size: 0.9rem;
+  border-bottom: 1px solid transparent;
+  transition: background-color 0.3s, border-bottom 0.3s;
+  cursor: pointer;
+}
+
+.active-tab {
+  background-color: #1e1e1e;
+  border-bottom: 2px solid #4caf50;
+}
+
+/* Breadcrumb navigation to simulate file paths */
+.breadcrumb {
+  background-color: #2d2d2d;
+  padding: 0.5rem 1rem;
+  color: #c5c5c5;
+  font-size: 0.8rem;
+  border-bottom: 1px solid #3c3c3c;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Status bar at the bottom of the editor for additional IDE-like information */
+.status-bar {
+  background-color: #1e1e1e;
+  padding: 0.3rem 1rem;
+  color: #c5c5c5;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  font-size: 0.8rem;
+  border-top: 1px solid #3c3c3c;
+}
+
+.divider {
+  color: #555;
+}
